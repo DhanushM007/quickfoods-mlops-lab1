@@ -1,4 +1,13 @@
+# Virtual environment
 venv/
+
+# Python cache
 __pycache__/
 *.pyc
-*.pkl
+
+# MLflow generated files
+mlruns/
+mlflow.db
+
+# Local backup file
+src/train_lab1_backup.py
